@@ -1,0 +1,409 @@
+.Homecontainer {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.front_image {
+    width: 100%;
+    height: 50vh;
+
+}
+
+.front_image img {
+    width: 100%;
+    height: 55vh;
+    object-fit: cover;
+
+}
+
+.Page_container_Home {
+    min-height: 95vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 90vw;
+    margin: auto;
+    gap: 10vw;
+
+}
+
+
+.welcome_div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5vh auto;
+}
+
+.welcome_note {
+    margin: 5vh 0px;
+    margin-bottom: 0;
+    background-color: rgb(244, 238, 230);
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 10px;
+    margin-left: 0px;
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+
+
+.welcome_slogan {
+    font-size: 3.4em;
+    font-weight: 800;
+    width: 35vw;
+    margin: auto;
+    margin: 10px;
+}
+
+.welcome_details {
+    font-size: 1.5em;
+    font-weight: 500;
+    width: 30vw;
+    margin: 10px;
+}
+
+
+.show_container_home {
+    margin-top: 3vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4vw;
+    flex-wrap: wrap;
+    width: 70%;
+
+
+
+    >.menu_home_show a {
+        text-decoration: none;
+        padding: 10px 15px;
+        background-color: rgb(52, 52, 246);
+        color: white;
+        font-size: 1.3em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+
+    }
+
+    >.menu_home_show a:hover {
+        background-color: rgb(68, 68, 211);
+    }
+
+
+    >.about_home_show a {
+
+
+        color: rgba(0, 0, 0, 0.452);
+        font-size: 2.2em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+    }
+
+    >.about_home_show a:hover {
+
+
+        color: rgba(0, 0, 0, 0.752);
+
+    }
+
+    >.order_home_show a {
+
+        text-decoration: none;
+        padding: 10px 15px;
+        background-color: rgb(52, 52, 246);
+        color: white;
+        font-size: 1.3em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+
+    }
+
+    >.order_home_show a:hover {
+        background-color: rgb(68, 68, 211);
+    }
+
+
+
+}
+
+
+@media screen and (max-width:1365px) {
+
+    .Page_container_Home {
+        gap: 8vw;
+    }
+
+
+    .welcome_slogan {
+        font-size: 2.9em;
+        font-weight: 800;
+        width: 38vw;
+        margin: auto;
+        margin: 10px;
+    }
+
+    .welcome_details {
+        font-size: 1.3em;
+        width: 38vw;
+    }
+
+
+    .show_container_home {
+        width: 80%;
+
+
+        >.menu_home_show a {
+            font-size: 1.2em;
+        }
+
+
+        >.about_home_show a {
+            font-size: 2.1em;
+        }
+
+
+        >.order_home_show a {
+
+            font-size: 1.2em;
+
+        }
+
+    }
+}
+
+
+@media screen and (max-width:1070px) {
+
+    .Page_container_Home {
+        gap: 8vw;
+    }
+
+    .welcome_note {
+
+        font-size: 1.2em;
+        font-weight: 600;
+    }
+
+
+    .welcome_slogan {
+        font-size: 2.2em;
+        font-weight: 800;
+        width: 38vw;
+        margin: auto;
+        margin: 10px;
+    }
+
+    .welcome_details {
+        font-size: 1.1em;
+        width: 38vw;
+    }
+
+
+    .show_container_home {
+        width: 80%;
+
+
+        >.menu_home_show a {
+            font-size: 1em;
+        }
+
+
+        >.about_home_show a {
+            font-size: 1.8em;
+        }
+
+
+        >.order_home_show a {
+
+            font-size: 1em;
+
+        }
+
+    }
+}
+
+
+@media screen and (max-width:850px) {
+
+    .Page_container_Home {
+        gap: 8vw;
+    }
+    
+    .welcome_note {
+
+        font-size: 1em;
+        font-weight: 600;
+    }
+
+
+    .welcome_slogan {
+        font-size: 2em;
+        font-weight: 800;
+        width: 38vw;
+        margin: auto;
+        margin: 10px;
+    }
+
+    .welcome_details {
+        font-size: 1em;
+        width: 40vw;
+    }
+
+
+    .show_container_home {
+        width: 90%;
+
+
+        >.menu_home_show a {
+            font-size: 1em;
+        }
+
+
+        >.about_home_show a {
+            font-size: 1.4em;
+        }
+
+
+        >.order_home_show a {
+
+            font-size: 1em;
+
+        }
+
+    }
+}
+
+
+@media screen and (max-width:670px) {
+
+    .Page_container_Home {
+        gap: 8vw;
+    }
+
+    .welcome_note {
+
+        font-size: 0.8em;
+        font-weight: 600;
+    }
+
+
+    .welcome_slogan {
+        font-size: 1.6em;
+        font-weight: 800;
+        width: 42vw;
+        margin: auto;
+        margin: 10px;
+    }
+
+    .welcome_details {
+        font-size: 1em;
+        width: 38vw;
+    }
+
+
+    .show_container_home {
+        width: 90%;
+
+
+        >.menu_home_show a {
+            font-size: 1em;
+        }
+
+
+        >.about_home_show a {
+            font-size: 1.4em;
+        }
+
+
+        >.order_home_show a {
+
+            font-size: 1em;
+
+        }
+
+    }
+}
+
+
+@media screen and (max-width:550px) {
+
+    .Page_container_Home {
+        min-height: 95vh;
+        display: flex;
+        width: 90vw;
+        margin: auto;
+        gap: 10vw;
+    
+    }
+    
+    
+    .welcome_div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 5vh auto;
+        width: 80%;
+    }
+
+    
+.welcome_note {
+    margin: 5vh 0px;
+    margin-bottom: 0;
+    border-radius: 8px;
+    padding: 10px;
+    margin-left: 0px;
+}
+
+
+
+.welcome_slogan {
+
+    width: 80%;
+    margin: auto;
+    margin: 10px;
+}
+
+.welcome_details {
+
+    width: 80%;
+    margin: 10px;
+}
+
+
+.show_container_home {
+    margin-top: 3vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4vw;
+    flex-wrap: wrap;
+    width: 70%;
+
+
+
+    >.menu_home_show a {
+        text-decoration: none;
+        padding: 10px 15px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+
+    }
+
+
+
+}
+    
+}

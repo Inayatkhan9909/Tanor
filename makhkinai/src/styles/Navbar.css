@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.Navbarcontainer {
+    display: flex;
+    justify-content: space-around;
+    margin: 5px 0px;
+    z-index: 10;
+    padding: 10px;
+    align-items: center;
+    background-color: rgb(236, 239, 217);
+    border: 1px solid rgb(52, 52, 246);
+    position: sticky;
+    top: 0;
+
+
+    >.title img {
+
+        height: 60px;
+
+    }
+
+
+
+    >.items ul {
+        display: flex;
+        justify-content: center;
+        list-style: none;
+        margin: 0;
+        align-items: center;
+        gap: 3vw;
+    }
+
+
+    >.items ul li a {
+        text-decoration: none;
+        color: black;
+        font-size: 1.2em;
+
+    }
+
+
+    >.items ul li a:hover {
+
+        color: blue;
+
+
+    }
+
+}
+
+.Register {
+    background-color: rgb(52, 52, 246);
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: white !important;
+}
+
+.Register:hover {
+    background-color: rgb(12, 12, 209);
+}
+
+.dropdown {
+    display: none;
+}
+
+
+@media screen and (max-width:1150px) {
+
+    .Navbarcontainer {
+
+
+
+
+        >.title img {
+
+            height: 50px;
+
+        }
+
+        >.items ul li a {
+            font-size: 1.1em;
+
+        }
+    }
+
+
+}
+
+@media screen and (max-width:850px) {
+
+    .Navbarcontainer {
+
+
+
+
+        >.title img {
+
+            height: 40px;
+
+        }
+
+        >.items ul li a {
+            font-size: 1em;
+
+        }
+    }
+
+
+}
+
+@media screen and (max-width:600px) {
+
+    .Navbarcontainer {
+
+
+
+
+        >.title img {
+
+            height: 30px;
+
+        }
+
+        >.items ul li a {
+            font-size: 0.8em;
+
+        }
+    }
+
+
+}
+
+@media screen and (max-width:550px) {
+
+
+    .Navbarcontainer {
+
+        justify-content: space-between;
+    }
+
+    .items {
+        display: none;
+    }
+
+    .dropdown {
+        display: initial;
+        position: relative;
+    }
+
+    .itemsdropdown {
+        position: absolute;
+        top: 16vh;
+        left: 28vw;
+        z-index: 10;
+        width: 70vw;
+        height: 60vh;
+
+        background-color: rgb(236, 239, 217);
+
+        
+    }
+
+    .itemsdropdown ul {
+        display: flex;
+        flex-direction: column;
+        list-style: none;
+        margin: 0;
+        align-items: center;
+        gap: 3vw;
+    }
+
+    .itemsdropdown ul li a {
+        text-decoration: none;
+        color: black;
+        font-size: 1.2em;
+
+    }
+
+
+    .itemsdropdown ul li a:hover {
+
+        color: blue;
+
+
+    }
+
+   
+}
